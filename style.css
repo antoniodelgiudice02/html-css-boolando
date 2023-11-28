@@ -78,7 +78,7 @@ header{
 .main-container{
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .main-container__prod{
