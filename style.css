@@ -90,6 +90,17 @@ header{
     position: relative;
 }
 
+.main-container__prod:hover .img-hover{
+    display:inline-block;
+}
+
+.img-hover{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
 /*DECORATION*/
 
 .main-container__prod img{
@@ -125,13 +136,82 @@ header{
 }
 
 
-.img-hover{
-    display: none;
-    position: absolute;
-    top: 0;
-    left: 0;
+
+/*CARD 1*/
+
+.main-container__prod:first-child .old-price{
 }
 
-.main-container__prod:hover .img-hover{
-    display:inline-block;
+.main-container__prod:first-child .prod_sale{
+    
+}
+
+.main-container__prod:first-child .prod_sostenibility{
+
+}
+
+/*CARD 2*/
+
+.main-container__prod:nth-child(2) .old-price{
+}
+
+.main-container__prod:nth-child(2) .prod_sale{
+    
+}
+
+.main-container__prod:nth-child(2) .prod_sostenibility{
+    display: none;
+}
+
+/*CARD 3*/
+
+.main-container__prod:nth-child(3) .old-price{
+}
+
+.main-container__prod:nth-child(3) .prod_sale{
+    
+}
+
+.main-container__prod:nth-child(3) .prod_sostenibility{
+    display: none;
+}
+
+/*CARD 4*/
+
+.main-container__prod:nth-child(4) .old-price{
+}
+
+.main-container__prod:nth-child(4) .prod_sale{
+    
+}
+
+.main-container__prod:nth-child(4) .prod_sostenibility{
+
+}
+
+/*CARD 5*/
+
+.main-container__prod:nth-child(5) .old-price{
+    display: none;
+}
+
+.main-container__prod:nth-child(5) .prod_sale{
+    display: none;
+}
+
+.main-container__prod:nth-child(5) .prod_sostenibility{
+    display: none;
+}
+
+/* CARD 6*/
+
+.main-container__prod:nth-child(6) .old-price{
+    display: none;
+}
+
+.main-container__prod:nth-child(6) .prod_sale{
+    display: none;
+}
+
+.main-container__prod:nth-child(6) .prod_sostenibility{
 }
