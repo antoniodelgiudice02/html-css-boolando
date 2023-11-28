@@ -24,6 +24,7 @@ header{
     top: 0;
     z-index: 1;
     font-size: 0.8rem;
+    box-shadow: 10px 0 5px;
 }
 
 .header-container{
