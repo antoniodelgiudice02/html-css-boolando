@@ -6,26 +6,29 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.container{
+    margin: 0 150px;
+    display:flex;
+}
 
 
 
 
-/*header*/
+
+/*HEADER*/
 
 /*STRUTTURA*/
 
 header{
-    height: 60px;
+    height: 50px;
     background-color: #ff6900;
-    line-height: 60px;
+    line-height: 50px;
     position: static;
 }
 
 .header-container{
-    display: flex;
     align-items: center;
     justify-content: space-around;
-    margin: 0 10%;
 }
 
 .header-container div{
@@ -65,4 +68,26 @@ header{
 .header-container__logo img{
     width: 40%;
     margin: auto;
+}
+
+
+/*MAIN*/
+
+/*STRUTTURA*/
+
+.main-container{
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-container__prod{
+    width: calc(100% / 3 - 25px );
+    margin: 40px 10px;
+}
+
+/*DECORATION*/
+
+.main-container__prod img{
+    width: 100%;
 }
