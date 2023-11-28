@@ -84,10 +84,40 @@ header{
 .main-container__prod{
     width: calc(100% / 3 - 25px );
     margin: 40px 10px;
+    font-size: 0.8rem;
+    position: relative;
 }
 
 /*DECORATION*/
 
 .main-container__prod img{
     width: 100%;
+}
+
+.main-container__prod_sale{
+    position: absolute;
+    bottom: 20%;
+    color: white;
+    font-weight: bold;
+}
+
+.prod_heart{
+    width:58px;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 15px;
+    background-color: white;
+    position:absolute;
+    top: 5%;
+    right: 0;
+}
+
+.prod_sale{
+    background-color: red;
+    padding: 2px;
+}
+
+.prod_sostenibility{
+    background-color: green;
+    padding: 2px;
 }
